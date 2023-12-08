@@ -11,4 +11,4 @@ Simple reproduction steps for testing:
 1. Set up `.env` file for database and email (tested with gmail, OTP purpose)
 2. `php artisan migrate` & `php artisan key:generate`
 3. `npm install` -> `npm run dev`
-4. `php artisan migrate`
+4. `php artisan serve`
