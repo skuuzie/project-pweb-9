@@ -9,5 +9,6 @@ Simple reproduction steps for testing:
 
 0. Make sure your machine can serve laravel already, then run `composer install` in root project dir
 1. Set up `.env` file for database and email (tested with gmail, OTP purpose)
-2. `npm install` -> `npm run dev`
-3. `php artisan migrate`
+2. `php artisan migrate` & `php artisan key:generate`
+3. `npm install` -> `npm run dev`
+4. `php artisan migrate`
